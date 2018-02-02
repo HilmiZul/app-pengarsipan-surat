@@ -14,6 +14,12 @@ elseif ($_GET['menu'] == "login") {
 elseif ($_GET['menu'] == "surat-masuk") {
   include("konten/surat-masuk.php");
 }
+elseif ($_GET['menu'] == "tambah-surat-masuk") {
+  include("konten/tambah-surat-masuk.php");
+}
+
+
+
 elseif ($_GET['menu'] == "logout") {
   include("konten/logout.php");
 }
