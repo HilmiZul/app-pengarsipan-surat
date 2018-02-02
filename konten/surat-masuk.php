@@ -4,7 +4,7 @@
       <div class="col text-center">
         <div class="card">
           <div class="card-header text-center">
-            <h4>Catatan Surat Masuk <a href="tambah-surat-masuk.html" class="btn btn-primary">Tambah</a></h4>
+            <h4>Catatan Surat Masuk <a href="?menu=tambah-surat-masuk" class="btn btn-primary">Tambah</a></h4>
           </div>
           <div class="card-body">
             <div class="table-responsive">
@@ -21,33 +21,20 @@
                   </tr>
                 </thead>
                 <tbody>
+                <?php
+                $q = mysql_query("select * from tb_surat_masuk");
+                while($r = mysql_fetch_array($q)) {
+                 ?>
                   <tr>
-                    <td>1.</td>
-                    <td>Dinas</td>
-                    <td>29 Januari 2018</td>
-                    <td>30 Januari 2018</td>
-                    <td>PENTING</td>
-                    <td>DISDIK Tasikmalaya</td>
+                    <td><?php print $r['no_agenda']?></td>
+                    <td><?php print $r['jenis_surat']?></td>
+                    <td><?php print $r['tgl_kirim']?></td>
+                    <td><?php print $r['tgl_terima']?></td>
+                    <td><?php print $r['perihal']?></td>
+                    <td><?php print $r['pengirim']?></td>
                     <td><a href="#" class="btn btn-danger">Hapus</a></td>
                   </tr>
-                  <tr>
-                    <td>2.</td>
-                    <td>Dinas</td>
-                    <td>19 Januari 2018</td>
-                    <td>20 Januari 2018</td>
-                    <td>PENTING</td>
-                    <td>DISDIK Tasikmalaya</td>
-                    <td><a href="#" class="btn btn-danger">Hapus</a></td>
-                  </tr>
-                  <tr>
-                    <td>3.</td>
-                    <td>Dinas</td>
-                    <td>1 Januari 2018</td>
-                    <td>3 Januari 2018</td>
-                    <td>PENTING</td>
-                    <td>Dishubkominfo</td>
-                    <td><a href="#" class="btn btn-danger">Hapus</a></td>
-                  </tr>
+                <?php } // tutup while ?>
                 </tbody>
               </table>
             </div>
