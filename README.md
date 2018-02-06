@@ -11,7 +11,7 @@ Ini merupakan *project files* dari video tutorial [#UjikomTutorial](https://www.
 * Import database dari folder ```app-pengarsipan-surat```. Nama database-nya ```pengarsipan_surat.sql```
 * Buka tab baru: [localhost/app-pengarsipan-surat-master](http://localhost/app-pengarsipan-surat-master)
 
-# Riwayat Video (order by desc)
+# Riwayat Video (*order by desci*)
 * 2.4 Update: [Watch Video](https://youtu.be/q8VLZ-3eR2M)
 * 2.3 Create & Read a.k.a insert & select: [Watch Video](https://youtu.be/51fYypHQgNg)
 * 2.2 Konfigurasi Database & Login sederhana: [Watch Video](https://www.youtube.com/watch?v=TpRCZDpEjY8)
