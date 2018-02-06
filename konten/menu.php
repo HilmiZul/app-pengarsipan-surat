@@ -5,8 +5,7 @@
   </button>
 
   <?php
-  if ($_SESSION['hak'] == "petugas") {
-  ?>
+  if ($_SESSION['hak'] == "petugas") { ?>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
