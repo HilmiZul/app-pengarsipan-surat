@@ -17,6 +17,9 @@ elseif ($_GET['menu'] == "surat-masuk") {
 elseif ($_GET['menu'] == "tambah-surat-masuk") {
   include("konten/tambah-surat-masuk.php");
 }
+elseif ($_GET['menu'] == "ubah-surat-masuk") {
+  include("konten/ubah-surat-masuk.php");
+}
 
 
 
