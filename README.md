@@ -2,7 +2,7 @@
 Ini merupakan *project files* dari video tutorial [#UjikomTutorial](https://www.youtube.com/playlist?list=PLSCLBARdXrOw_XYhxNf_fF0RQk2moFCel) di YouTube. Bertujuan untuk menambah bahan ajar buat teman-teman yang kekurangan materi dikelas.
 
 # Instalasi di Windows
-* Download [app-pengarsipan-surat-master.zip](https://github.com/HilmiZul/desain-pengarsipan-surat/archive/master.zip)
+* Download [app-pengarsipan-surat-master.zip](https://github.com/HilmiZul/app-pengarsipan-surat/archive/master.zip)
 * Extract ke folder ```htdocs```
 * Buka XAMPP
 * Jalankan ```Apache``` dan ```MySQL```
