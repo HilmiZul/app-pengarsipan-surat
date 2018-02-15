@@ -12,7 +12,7 @@ Ini merupakan *project files* dari video tutorial [#UjikomTutorial](https://www.
 * Buka tab baru: [localhost/app-pengarsipan-surat-master](http://localhost/app-pengarsipan-surat-master)
 
 # Riwayat Video (*order by desc*)
-* 2.5 Delete: [Watch Video](https://youtu.be/q8VLZ-3eR2M)
+* 2.5 Delete: [Watch Video](https://youtu.be/VP6ZN1cWaOc)
 * 2.4 Update: [Watch Video](https://youtu.be/q8VLZ-3eR2M)
 * 2.3 Create & Read a.k.a insert & select: [Watch Video](https://youtu.be/51fYypHQgNg)
 * 2.2 Konfigurasi Database & Login sederhana: [Watch Video](https://www.youtube.com/watch?v=TpRCZDpEjY8)
