@@ -35,33 +35,43 @@ if ($_GET['hapus'] == 'ya') {
                 <tbody>
                 <?php
                 $q = mysql_query("select * from tb_surat_masuk");
-                while($r = mysql_fetch_array($q)) {
-                 ?>
-                  <tr>
-                    <td><?php print $r['no_agenda']?></td>
-                    <td><?php print $r['jenis_surat']?></td>
-                    <td><?php print $r['tgl_kirim']?></td>
-                    <td><?php print $r['tgl_terima']?></td>
-                    <td><?php print $r['perihal']?></td>
-                    <td><?php print $r['pengirim']?></td>
-                    <td>
-                      <a href="?menu=ubah-surat-masuk&no_agenda=<?php print $r['no_agenda']?>" class="btn btn-warning">Ubah</a>
-                      <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#no_agenda_<?php print $r['no_agenda']?>">Hapus</a>
-                    </td>
-                  </tr>
-                  <div class="modal fade" id="no_agenda_<?php print $r['no_agenda']?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-body">
-                          Apakah Anda yakin akan menghapus catatan surat dari: <strong><?php print $r['pengirim']?></strong>?
-                        </div>
-                        <div class="modal-footer">
-                          <a href="?menu=surat-masuk&hapus=ya&no_agenda=<?php print $r['no_agenda']?>" class="btn btn-danger">Ya, Hapus</a>
+                $jumlah = mysql_num_rows($q);
+
+                if ($jumlah > 0) {
+                  while($r = mysql_fetch_array($q)) {
+                    $tgl_kirim = date('d F Y', strtotime($r['tgl_kirim']));
+                    $tgl_terima = date('d F Y', strtotime($r['tgl_terima']));
+                   ?>
+                    <tr>
+                      <td><?php print $r['no_agenda']?></td>
+                      <td><?php print $r['jenis_surat']?></td>
+                      <td><?php print $tgl_kirim?></td>
+                      <td><?php print $tgl_terima?></td>
+                      <td><?php print $r['perihal']?></td>
+                      <td><?php print $r['pengirim']?></td>
+                      <td>
+                        <a href="?menu=ubah-surat-masuk&no_agenda=<?php print $r['no_agenda']?>" class="btn btn-warning">Ubah</a>
+                        <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#no_agenda_<?php print $r['no_agenda']?>">Hapus</a>
+                      </td>
+                    </tr>
+                    <div class="modal fade" id="no_agenda_<?php print $r['no_agenda']?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                            Apakah Anda yakin akan menghapus catatan surat dari: <strong><?php print $r['pengirim']?></strong>?
+                          </div>
+                          <div class="modal-footer">
+                            <a href="?menu=surat-masuk&hapus=ya&no_agenda=<?php print $r['no_agenda']?>" class="btn btn-danger">Ya, Hapus</a>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                <?php } // tutup while ?>
+                <?php }
+                } else { ?>
+                  <tr>
+                    <td colspan="7"><em>Data masih kosong.</em></td>
+                  </tr>
+                <?php } ?>
                 </tbody>
               </table>
             </div>
