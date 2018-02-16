@@ -30,27 +30,27 @@ if (isset($_POST['simpan'])) {
             <form action="" method="post">
               <div class="form-group">
                 <div class="label">Jenis Surat</div>
-                <input type="text" class="form-control" name="jenis_surat" placeholder="Jenis Surat">
+                <input type="text" class="form-control" name="jenis_surat" placeholder="Jenis Surat" autofocus required>
               </div>
               <div class="form-group">
                 <div class="label">Nomor Surat</div>
-                <input type="text" class="form-control" name="no_surat" placeholder="Nomor Surat. ex: SMK/17/18/VI">
+                <input type="text" class="form-control" name="no_surat" placeholder="Nomor Surat. ex: SMK/17/18/VI" required>
               </div>
               <div class="form-group">
                 <div class="label">Tanggal Kirim</div>
-                <input type="date" class="form-control" name="tgl_kirim" >
+                <input type="date" class="form-control" name="tgl_kirim" required>
               </div>
               <div class="form-group">
                 <div class="label">Tanggal Terima</div>
-                <input type="date" class="form-control" name="tgl_terima" >
+                <input type="date" class="form-control" name="tgl_terima" required>
               </div>
               <div class="form-group">
                 <div class="label">Pengirim</div>
-                <input type="text" class="form-control" name="pengirim" placeholder="Pengirim">
+                <input type="text" class="form-control" name="pengirim" placeholder="Pengirim" required>
               </div>
               <div class="form-group">
                 <div class="label">Perihal</div>
-                <input type="text" class="form-control" name="perihal" placeholder="Perihal">
+                <input type="text" class="form-control" name="perihal" placeholder="Perihal" required>
               </div>
 
               <div class="form-group">
