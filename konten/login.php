@@ -16,7 +16,7 @@ if (isset($_POST['login'])) {
     //print "LOGIN BERHASIL";
     header('Location: index.php');
   } else {
-    print "LOGIN GAGAL :(";
+    $pesan = "<div class='alert alert-danger'>LOGIN GAGAL :(</div>";
   }
 }
  ?>
@@ -25,18 +25,19 @@ if (isset($_POST['login'])) {
 <section class="">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-4 text-center">
+      <div class="col-4">
         <div class="card">
           <div class="card-header text-center">
             <h4>LOGIN</h4>
           </div>
           <div class="card-body">
+            <?php print $pesan?>
             <form action="" method="post">
               <div class="form-group">
-                <input type="text" class="form-control" name="username" placeholder="Username">
+                <input type="text" class="form-control" name="username" placeholder="Username" autofocus required>
               </div>
               <div class="form-group">
-                <input type="password" class="form-control" name="password" placeholder="Password">
+                <input type="password" class="form-control" name="password" placeholder="Password" required>
               </div>
               <div class="form-group">
                 <button type="submit" name="login" class="btn btn-primary" name="button">Masuk</button>
