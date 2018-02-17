@@ -11,6 +11,7 @@ elseif ($_GET['menu'] == "login") {
     header('Location: index.php');
   }
 }
+
 elseif ($_GET['menu'] == "surat-masuk") {
   include("konten/surat-masuk.php");
 }
@@ -19,6 +20,16 @@ elseif ($_GET['menu'] == "tambah-surat-masuk") {
 }
 elseif ($_GET['menu'] == "ubah-surat-masuk") {
   include("konten/ubah-surat-masuk.php");
+}
+
+elseif ($_GET['menu'] == "surat-keluar") {
+  include("konten/surat-keluar.php");
+}
+elseif ($_GET['menu'] == "tambah-surat-keluar") {
+  include("konten/tambah-surat-keluar.php");
+}
+elseif ($_GET['menu'] == "ubah-surat-keluar") {
+  include("konten/ubah-surat-keluar.php");
 }
 
 
