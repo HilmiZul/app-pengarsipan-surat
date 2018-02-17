@@ -12,6 +12,7 @@ Ini merupakan *project files* dari video tutorial [#UjikomTutorial](https://www.
 * Buka tab baru: [localhost/app-pengarsipan-surat-master](http://localhost/app-pengarsipan-surat-master)
 
 # Riwayat Video (*order by desc*)
+* 2.7 re-CRUD: [Watch Video](https://youtu.be/RK2mM3MMneU)
 * 2.6 Validasi: [Watch Video](https://youtu.be/jyUvAFD-p3o)
 * 2.5 Delete: [Watch Video](https://youtu.be/VP6ZN1cWaOc)
 * 2.4 Update: [Watch Video](https://youtu.be/q8VLZ-3eR2M)
