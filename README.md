@@ -1,18 +1,7 @@
 # Hello 😀
 Ini merupakan *project files* dari video tutorial [#UjikomTutorial](https://www.youtube.com/playlist?list=PLSCLBARdXrOw_XYhxNf_fF0RQk2moFCel) di YouTube. Bertujuan untuk menambah bahan ajar buat teman-teman yang kekurangan materi dikelas.
 
-# Progress Kerja
-* 0 Analisis: Database & Struktur tabel
-* 1 Desain Aplikasi dengan Bootstrap
-* 2.1 Routing
-* 2.2 Konfigurasi Database & Login sederhana
-* 2.3 Create
-* 2.4 Update
-* 2.5 Delete
-* 2.6 Validasi
-* 2.7 re-CRUD
-
-# Video Tutorial (*order by desc*)
+# Progress Kerja (*order by desc*)
 * 2.7 re-CRUD: [Watch Video](https://youtu.be/RK2mM3MMneU)
 * 2.6 Validasi: [Watch Video](https://youtu.be/jyUvAFD-p3o)
 * 2.5 Delete: [Watch Video](https://youtu.be/VP6ZN1cWaOc)
