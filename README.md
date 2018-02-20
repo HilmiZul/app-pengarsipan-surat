@@ -1,17 +1,18 @@
 # Hello 😀
 Ini merupakan *project files* dari video tutorial [#UjikomTutorial](https://www.youtube.com/playlist?list=PLSCLBARdXrOw_XYhxNf_fF0RQk2moFCel) di YouTube. Bertujuan untuk menambah bahan ajar buat teman-teman yang kekurangan materi dikelas.
 
-# Instalasi di Windows
-* Download [app-pengarsipan-surat-master.zip](https://github.com/HilmiZul/app-pengarsipan-surat/archive/master.zip)
-* Extract ke folder ```htdocs```
-* Buka XAMPP
-* Jalankan ```Apache``` dan ```MySQL```
-* Buka web browser: [localhost/phpmyadmin](http://localhost/phpmyadmin)
-* Buat database baru: ```pengarsipan_surat```
-* Import database dari folder ```app-pengarsipan-surat```. Nama database-nya ```pengarsipan_surat.sql```
-* Buka tab baru: [localhost/app-pengarsipan-surat-master](http://localhost/app-pengarsipan-surat-master)
+# Progress Kerja
+* 0 Analisis: Database & Struktur tabel
+* 1 Desain Aplikasi dengan Bootstrap
+* 2.1 Routing
+* 2.2 Konfigurasi Database & Login sederhana
+* 2.3 Create
+* 2.4 Update
+* 2.5 Delete
+* 2.6 Validasi
+* 2.7 re-CRUD
 
-# Riwayat Video (*order by desc*)
+# Video Tutorial (*order by desc*)
 * 2.7 re-CRUD: [Watch Video](https://youtu.be/RK2mM3MMneU)
 * 2.6 Validasi: [Watch Video](https://youtu.be/jyUvAFD-p3o)
 * 2.5 Delete: [Watch Video](https://youtu.be/VP6ZN1cWaOc)
@@ -21,5 +22,26 @@ Ini merupakan *project files* dari video tutorial [#UjikomTutorial](https://www.
 * 2.1 Routing: [Watch Video](https://www.youtube.com/watch?v=BUAOhfJEXXY)
 * 1 Desain: [Watch Video](https://www.youtube.com/watch?v=Z6AiP0p34gM)
 * 0 Analisis (Database & Struktur tabel): [Watch Video](https://www.youtube.com/watch?v=eb8tzQKV_po)
+
+# Instalasi di Windows
+* Download [app-pengarsipan-surat-master.zip](https://github.com/HilmiZul/app-pengarsipan-surat/archive/master.zip)
+* Extract ke folder ```htdocs```
+* Buka XAMPP
+* Jalankan ```Apache``` dan ```MySQL```
+* Buka web browser: [localhost/phpmyadmin](http://localhost/phpmyadmin)
+* Buat database baru: ```pengarsipan_surat```
+* Import database dari folder ```app-pengarsipan-surat```. Nama database-nya ```pengarsipan_surat.sql```
+* Buka tab baru: [localhost/app-pengarsipan-surat-master](http://localhost/app-pengarsipan-surat-master)
+* Enjoy 😃
+
+# Instalasi di GNU/Linux
+* Download [app-pengarsipan-surat-master.zip](https://github.com/HilmiZul/app-pengarsipan-surat/archive/master.zip)
+* Extract ke direktori ```/var/www```
+* Ubah mode file: ```chmod 644 -Rf /var/www/app-pengarsipan-surat-master```
+* Buka web browser: [localhost/phpmyadmin](http://localhost/phpmyadmin)
+* Buat database baru: ```pengarsipan_surat```
+* Import database ```pengarsipan_surat.sql``` dari direktori ```app-pengarsipan-surat-master/```
+* Buka tab baru: [localhost/app-pengarsipan-surat-master](http://localhost/app-pengarsipan-surat-master)
+* Enjoy 😃
 
 ### Salam Ujikom!
