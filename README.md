@@ -15,7 +15,7 @@ Ini merupakan *project files* dari video tutorial [#UjikomTutorial](https://www.
 # Instalasi di Windows
 * Download [app-pengarsipan-surat-master.zip](https://github.com/HilmiZul/app-pengarsipan-surat/archive/master.zip)
 * Extract ke folder ```htdocs```
-* Buka XAMPP
+* Buka XAMPP (PHP 5.x, MySQL)
 * Jalankan ```Apache``` dan ```MySQL```
 * Buka web browser: [localhost/phpmyadmin](http://localhost/phpmyadmin)
 * Buat database baru: ```pengarsipan_surat```
