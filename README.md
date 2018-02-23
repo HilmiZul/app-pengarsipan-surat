@@ -21,6 +21,7 @@ Ini merupakan *project files* dari video tutorial [#UjikomTutorial](https://www.
 * Buat database baru: ```pengarsipan_surat```
 * Import database dari folder ```app-pengarsipan-surat```. Nama database-nya ```pengarsipan_surat.sql```
 * Buka tab baru: [localhost/app-pengarsipan-surat-master](http://localhost/app-pengarsipan-surat-master)
+* User: ```zul```. Pass: ```12345```.
 * Enjoy 😃
 
 # Instalasi di GNU/Linux
@@ -31,6 +32,7 @@ Ini merupakan *project files* dari video tutorial [#UjikomTutorial](https://www.
 * Buat database baru: ```pengarsipan_surat```
 * Import database ```pengarsipan_surat.sql``` dari direktori ```app-pengarsipan-surat-master/```
 * Buka tab baru: [localhost/app-pengarsipan-surat-master](http://localhost/app-pengarsipan-surat-master)
+* User: ```zul```. Pass: ```12345```.
 * Enjoy 😃
 
 ### Salam Ujikom!
