@@ -13,27 +13,68 @@ elseif ($_GET['menu'] == "login") {
 }
 
 elseif ($_GET['menu'] == "surat-masuk") {
-  include("konten/surat-masuk.php");
+  if (empty($_SESSION['hak'])) {
+    include("konten/login.php");
+  } else {
+    include("konten/surat-masuk.php");
+  }
 }
 elseif ($_GET['menu'] == "tambah-surat-masuk") {
-  include("konten/tambah-surat-masuk.php");
+  if (empty($_SESSION['hak'])) {
+    include("konten/login.php");
+  } else {
+    include("konten/tambah-surat-masuk.php");
+  }
 }
 elseif ($_GET['menu'] == "ubah-surat-masuk") {
-  include("konten/ubah-surat-masuk.php");
+  if (empty($_SESSION['hak'])) {
+    include("konten/login.php");
+  } else {
+    include("konten/ubah-surat-masuk.php");
+  }
 }
 
 elseif ($_GET['menu'] == "surat-keluar") {
-  include("konten/surat-keluar.php");
+  if (empty($_SESSION['hak'])) {
+    include("konten/login.php");
+  } else {
+    include("konten/surat-keluar.php");
+  }
 }
 elseif ($_GET['menu'] == "tambah-surat-keluar") {
-  include("konten/tambah-surat-keluar.php");
+  if (empty($_SESSION['hak'])) {
+    include("konten/login.php");
+  } else {
+    include("konten/tambah-surat-keluar.php");
+  }
 }
 elseif ($_GET['menu'] == "ubah-surat-keluar") {
-  include("konten/ubah-surat-keluar.php");
+  if (empty($_SESSION['hak'])) {
+    include("konten/login.php");
+  } else {
+    include("konten/ubah-surat-keluar.php");
+  }
 }
 
-
+elseif ($_GET['menu'] == "laporan-surat-masuk") {
+  if (empty($_SESSION['hak'])) {
+    include("konten/login.php");
+  } else {
+    include("konten/laporan-surat-masuk.php");
+  }
+}
+elseif ($_GET['menu'] == "laporan-surat-keluar") {
+  if (empty($_SESSION['hak'])) {
+    include("konten/login.php");
+  } else {
+    include("konten/laporan-surat-keluar.php");
+  }
+}
 
 elseif ($_GET['menu'] == "logout") {
-  include("konten/logout.php");
+  if (empty($_SESSION['hak'])) {
+    include("konten/login.php");
+  } else {
+    include("konten/logout.php");
+  }
 }
