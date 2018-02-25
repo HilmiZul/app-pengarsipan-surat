@@ -32,28 +32,31 @@ $r = mysql_fetch_array($q);
           </div>
           <div class="card-body">
             <?php print $pesan?>
+            <div class="alert alert-info">
+              <em>Semua form harus diisi*</em>
+            </div>
             <form action="" method="post">
               <div class="form-group">
                 <div class="label">Jenis Surat</div>
-                <input type="text" class="form-control" name="jenis_surat" value="<?php print $r['jenis_surat']?>" placeholder="Jenis Surat">
+                <input type="text" class="form-control" name="jenis_surat" value="<?php print $r['jenis_surat']?>" placeholder="Jenis Surat" required autofocus>
               </div>
               <div class="form-group">
                 <div class="label">Nomor Surat</div>
-                <input type="text" class="form-control" name="no_surat" value="<?php print $r['no_surat']?>" placeholder="Nomor Surat. ex: SMK/17/18/VI">
+                <input type="text" class="form-control" name="no_surat" value="<?php print $r['no_surat']?>" placeholder="Nomor Surat. ex: SMK/17/18/VI" required>
               </div>
               <div class="form-group">
                 <div class="label">Tanggal Kirim</div>
-                <input type="date" class="form-control" name="tgl_kirim" value="<?php print $r['tgl_kirim']?>">
+                <input type="date" class="form-control" name="tgl_kirim" value="<?php print $r['tgl_kirim']?>" required>
               </div>
               <div class="form-group">
                 <div class="label">Penerima</div>
-                <input type="text" class="form-control" name="penerima" value="<?php print $r['penerima']?>" placeholder="Pengirim">
+                <input type="text" class="form-control" name="penerima" value="<?php print $r['penerima']?>" placeholder="Pengirim" required>
               </div>
               <div class="form-group">
                 <div class="label">Perihal</div>
-                <input type="text" class="form-control" name="perihal" value="<?php print $r['perihal']?>" placeholder="Perihal">
+                <input type="text" class="form-control" name="perihal" value="<?php print $r['perihal']?>" placeholder="Perihal" required>
               </div>
-              <input type="hidden" name="no_agenda" value="<?php print $r['no_agenda']?>">
+              <input type="hidden" name="no_agenda" value="<?php print $r['no_agenda']?>" required>
 
               <div class="form-group">
                 <button type="submit" class="btn btn-primary" name="simpan">Simpan</button>
