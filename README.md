@@ -2,6 +2,7 @@
 *Project files* dari series video tutorial [#UjikomTutorial](https://www.youtube.com/playlist?list=PLSCLBARdXrOw_XYhxNf_fF0RQk2moFCel) di YouTube. 
 
 # Progress Kerja (*order by desc*)
+* 3 Testing: [Watch Video](https://youtu.be/eQ5GaLKlx0M)
 * 2.8.2 Laporan (Bagian 2): [Watch Video](https://www.youtube.com/watch?v=6OufjGpZt_8)
 * 2.8.1 Laporan (Bagian 1): [Watch Video](https://www.youtube.com/watch?v=cLlKtZ8SkGM)
 * 2.7   re-CRUD: [Watch Video](https://youtu.be/RK2mM3MMneU)
