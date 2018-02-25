@@ -1,13 +1,15 @@
 # Hello 😀
-Ini merupakan *project files* dari video tutorial [#UjikomTutorial](https://www.youtube.com/playlist?list=PLSCLBARdXrOw_XYhxNf_fF0RQk2moFCel) di YouTube. Bertujuan untuk menambah bahan ajar buat teman-teman yang kekurangan materi dikelas.
+*Project files* dari series video tutorial [#UjikomTutorial](https://www.youtube.com/playlist?list=PLSCLBARdXrOw_XYhxNf_fF0RQk2moFCel) di YouTube. 
 
 # Progress Kerja (*order by desc*)
-* 2.7 re-CRUD: [Watch Video](https://youtu.be/RK2mM3MMneU)
-* 2.6 Validasi: [Watch Video](https://youtu.be/jyUvAFD-p3o)
-* 2.5 Delete: [Watch Video](https://youtu.be/VP6ZN1cWaOc)
-* 2.4 Update: [Watch Video](https://youtu.be/q8VLZ-3eR2M)
-* 2.3 Create & Read a.k.a insert & select: [Watch Video](https://youtu.be/51fYypHQgNg)
-* 2.2 Konfigurasi Database & Login sederhana: [Watch Video](https://www.youtube.com/watch?v=TpRCZDpEjY8)
+* 2.8.2 Laporan (Bagian 2): [Watch Video](https://www.youtube.com/watch?v=6OufjGpZt_8)
+* 2.8.1 Laporan (Bagian 1): [Watch Video](https://www.youtube.com/watch?v=cLlKtZ8SkGM)
+* 2.7   re-CRUD: [Watch Video](https://youtu.be/RK2mM3MMneU)
+* 2.6   Validasi: [Watch Video](https://youtu.be/jyUvAFD-p3o)
+* 2.5   Delete: [Watch Video](https://youtu.be/VP6ZN1cWaOc)
+* 2.4   Update: [Watch Video](https://youtu.be/q8VLZ-3eR2M)
+* 2.3   Create & Read a.k.a insert & select: [Watch Video](https://youtu.be/51fYypHQgNg)
+* 2.2   Konfigurasi Database & Login sederhana: [Watch Video](https://www.youtube.com/watch?v=TpRCZDpEjY8)
 * 2.1 Routing: [Watch Video](https://www.youtube.com/watch?v=BUAOhfJEXXY)
 * 1 Desain: [Watch Video](https://www.youtube.com/watch?v=Z6AiP0p34gM)
 * 0 Analisis (Database & Struktur tabel): [Watch Video](https://www.youtube.com/watch?v=eb8tzQKV_po)
