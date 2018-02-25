@@ -30,6 +30,9 @@ $r = mysql_fetch_array($q);
           </div>
           <div class="card-body">
             <?php print $pesan?>
+            <div class="alert alert-info">
+              <em>Semua form harus diisi*</em>
+            </div>
             <form action="" method="post">
               <div class="form-group">
                 <div class="label">Jenis Surat</div>
