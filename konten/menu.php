@@ -5,7 +5,8 @@
   </button>
 
   <?php
-  if ($_SESSION['hak'] == "petugas") { ?>
+  if ($_SESSION['hak'] == "petugas") {
+  ?>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -25,8 +26,8 @@
           LAPORAN
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Surat Masuk</a>
-          <a class="dropdown-item" href="#">Surat Keluar</a>
+          <a class="dropdown-item" href="?menu=laporan-surat-masuk">Surat Masuk</a>
+          <a class="dropdown-item" href="?menu=laporan-surat-keluar">Surat Keluar</a>
         </div>
       </li>
     </ul>
