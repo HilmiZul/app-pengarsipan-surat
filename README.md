@@ -1,5 +1,5 @@
 # Hello 😀
-*Project files* dari series video tutorial [#UjikomTutorial](https://www.youtube.com/playlist?list=PLSCLBARdXrOw_XYhxNf_fF0RQk2moFCel) di YouTube. 
+*Project files* dari series video tutorial [#UjikomTutorial](https://www.youtube.com/playlist?list=PLSCLBARdXrOw_XYhxNf_fF0RQk2moFCel) di YouTube.
 
 # Progress Kerja (*order by desc*)
 * 3 Testing: [Watch Video](https://youtu.be/eQ5GaLKlx0M)
@@ -20,10 +20,10 @@
 * Extract ke folder ```htdocs```
 * Buka XAMPP (PHP 5.x, MySQL)
 * Jalankan ```Apache``` dan ```MySQL```
-* Buka web browser: [localhost/phpmyadmin](http://localhost/phpmyadmin)
+* Buka web browser: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
 * Buat database baru: ```pengarsipan_surat```
 * Import database dari folder ```app-pengarsipan-surat```. Nama database-nya ```pengarsipan_surat.sql```
-* Buka tab baru: [localhost/app-pengarsipan-surat-master](http://localhost/app-pengarsipan-surat-master)
+* Buka tab baru: [http://localhost/app-pengarsipan-surat-master](http://localhost/app-pengarsipan-surat-master)
 * User: ```zul``` Pass: ```12345```
 * Enjoy 😃
 
@@ -31,10 +31,10 @@
 * Download [app-pengarsipan-surat-master.zip](https://github.com/HilmiZul/app-pengarsipan-surat/archive/master.zip)
 * Extract ke direktori ```/var/www```
 * Ubah mode file: ```chmod 644 -Rf /var/www/app-pengarsipan-surat-master```
-* Buka web browser: [localhost/phpmyadmin](http://localhost/phpmyadmin)
+* Buka web browser: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
 * Buat database baru: ```pengarsipan_surat```
 * Import database ```pengarsipan_surat.sql``` dari direktori ```app-pengarsipan-surat-master/```
-* Buka tab baru: [localhost/app-pengarsipan-surat-master](http://localhost/app-pengarsipan-surat-master)
+* Buka tab baru: [http://localhost/app-pengarsipan-surat-master](http://localhost/app-pengarsipan-surat-master)
 * User: ```zul``` Pass: ```12345```
 * Enjoy 😃
 
