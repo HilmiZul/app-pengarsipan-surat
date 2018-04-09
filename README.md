@@ -1,5 +1,5 @@
 # Hello 😀
-*Project files* dari series video tutorial [#UjikomTutorial](https://www.youtube.com/playlist?list=PLSCLBARdXrOw_XYhxNf_fF0RQk2moFCel) di YouTube.
+Ini adalah *Project files* dari series video tutorial [#UjikomTutorial](https://www.youtube.com/playlist?list=PLSCLBARdXrOw_XYhxNf_fF0RQk2moFCel) di YouTube.
 
 # Progress Kerja (*order by desc*)
 * 3 Testing: [Watch Video](https://youtu.be/eQ5GaLKlx0M)
